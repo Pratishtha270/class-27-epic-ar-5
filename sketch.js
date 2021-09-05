@@ -20,7 +20,7 @@ backGroundImg=loadImage("./assets/background.gif");
 }
 
 function setup() {
-  canvas = createCanvas(windowWidth, windowHeight);
+  canvas = createCanvas(2000, 600);
 
   engine = Engine.create();
   world = engine.world;
